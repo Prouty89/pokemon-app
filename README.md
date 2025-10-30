@@ -9,6 +9,9 @@ Minimal Nuxt 3 app (TypeScript) that lists 60 Pokémon, supports search filterin
 - Abilities: formatted as a capitalized, comma-delimited string
 - Styled with plain CSS in `assets/css/main.css`
 
+## Live Demo
+[View on Vercel](https://pokemon-explorer-iaed.vercel.app)
+
 ## Local dev
 ```bash
 npm install
@@ -18,6 +21,3 @@ npm run dev
 
 npm run build
 npm run preview
-
-## Live Demo
-[View on Vercel](https://pokemon-explorer-iaed.vercel.app)
