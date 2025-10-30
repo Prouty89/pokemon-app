@@ -1,75 +1,20 @@
-# Nuxt Minimal Starter
+# Pokémon Explorer — Take Home Project
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Minimal Nuxt 3 app (TypeScript) that lists 60 Pokémon, supports search filtering, and displays detailed profile pages.
 
-## Setup
+## Features
+- Landing page: shows 60 Pokémon (name + thumbnail)
+- Live search filter (client-side)
+- Click a Pokémon to view profile page (large sprite, height, weight, abilities)
+- Abilities: formatted as a capitalized, comma-delimited string
+- Styled with plain CSS in `assets/css/main.css`
 
-Make sure to install dependencies:
-
+## Local dev
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+npx nuxi prepare
 npm run dev
+# open http://localhost:3000
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
 npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
