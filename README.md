@@ -18,3 +18,6 @@ npm run dev
 
 npm run build
 npm run preview
+
+## Live Demo
+[View on Vercel](https://pokemon-explorer-iaed.vercel.app)
