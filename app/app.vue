@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+  <div class="p-6">
+    <h1 class="text-3xl font-bold mb-4">Pokémon Explorer</h1>
+    <NuxtPage />
   </div>
 </template>
